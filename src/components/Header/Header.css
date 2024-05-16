@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    width:auto;
+    max-height: 10%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    max-width: 10%;
+} 
+.logo h1 {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+.search-bar input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.user-info span {
+    margin-right: 0.5rem;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ccc;
+}

@@ -1,0 +1,42 @@
+nav {
+    width: 15%;
+    background-color: #f2f2f2;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  nav li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  nav li span {
+    margin-left: 0.5rem;
+  }
+  
+  nav .nav-icon {
+    font-size: 1.2rem;
+  }
+  
+  nav ul ul {
+    margin-left: 1rem;
+  }
+  
+  nav ul ul li {
+    padding-left: 1.5rem;
+  }
+  
+  nav ul ul li .sub-nav-icon {
+    font-size: 1rem;
+  }
