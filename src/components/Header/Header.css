@@ -1,16 +1,19 @@
 .header {
     display: flex;
     width:auto;
-    max-height: 10%;
+    /* max-height: 10%; */
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* padding: 0.5rem 1rem; */
+    /* background-color: #fff; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    border :rgba(0, 0, 0, 0.1);
 }
 .logo {
     display: flex;
     align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 .logo img {
     max-width: 10%;
